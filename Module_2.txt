@@ -1,0 +1,60 @@
+
+
+1)Define the terms: Website, Webpage, Web browser, Web server,HTML,CSS
+
+1.Website:
+         A website is a collection of web pages and related content that is identified by a common domain name and published on at least one 
+         web server.
+
+
+2.Webpage: 
+         A webpage is a single document, typically written in HTML, that is accessible through a web browser and displayed on a user's
+         device when they visit a specific URL. 
+
+
+3.Web browser:
+            A web browser is a software application used to access and view websites and web pages on the internet.
+
+
+4.Web server:
+           A web server is a computer program or hardware device that stores and delivers web content to clients over the internet 
+           or an intranet.
+
+
+5.HTML (Hypertext Markup Language): 
+            HTML is the standard markup language used to create and structure content on webpages. It consists of a series of 
+            elements or tags that define the structure, layout, and formatting of web documents. HTML elements can include
+            headings, paragraphs, links, images, forms, and other elements. 
+
+
+CSS (Cascading Style Sheets): 
+           CSS is a style sheet language used to control the presentation and appearance of HTML documents. CSS allows web developers
+           to define styles such as fonts, colors, spacing, layout, and other visual aspects of web content
+
+
+2)In how many ways can a CSS be integrated as a web page?
+
+    1) Inline CSS: You can include CSS directly within HTML elements using the style attribute.
+        For example:
+
+           <div style="color: red; font-size: 20px;">This is a red text with font size 20px</div> 
+
+
+    2)Internal CSS: You can embed CSS within the <style> tag in the <head> section of an HTML document. This applies styles to the 
+     entire document.
+          For example: 
+
+                    <head>
+   	               <style>
+        	            body {
+           	              background-color: lightblue;}
+       		            h1 {
+           	             color: navy;}     
+   	               </style>
+	            </head>
+
+    3) External CSS: You can create a separate CSS file with .css extension and link it to your HTML document using the <link> tag. This 
+       allows for better organization and reusability of styles across multiple pages.
+            For example:
+
+                @import url("styles.css");

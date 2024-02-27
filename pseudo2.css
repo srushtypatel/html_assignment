@@ -1,0 +1,18 @@
+a {
+    color: brown;
+    text-decoration: none;
+    padding: 20px;
+    margin: 20px;
+}
+
+a:visited {
+    color: cadetblue;
+}
+
+a:hover {
+    color: blueviolet;
+}
+
+a:active {
+    color: chocolate;
+}
